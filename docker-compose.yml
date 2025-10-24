@@ -13,7 +13,7 @@ services:
       - springboot-mysql-net
 
   backend:
-    image: phanee2708/2300030317-EXAM-BACKEND:latest
+    image: phanee2708/2300030317-exam-backend:latest
     platform: linux/amd64
     container_name: springboot-exam
     ports:
@@ -25,7 +25,7 @@ services:
       - springboot-mysql-net
 
   frontend:
-    image: phanee2708/2300030317-EXAM-FRONTEND:latest
+    image: phanee2708/2300030317-exam-frontend:latest
     platform: linux/amd64
     container_name: react-exam
     ports:
